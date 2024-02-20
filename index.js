@@ -19,7 +19,7 @@ if (cluster.isMaster) {
 } else {
   const app = express();
 
-  const nggurl = 'https://educationbluesky.com';
+  const nggurl = 'discord.com';
 
   const proxy = httpProxy.createProxyServer({
     target: nggurl,
